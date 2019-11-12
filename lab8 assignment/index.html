@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body class="col-10 container" >
+    <header>
+        <h1>Hello Javascript();</h1>
+        <p id="time" >Display timw here</p>
+    </header>
+    <section class="container">
+
+        <form action="" id="studentRegisterForm" role="form" data-toggle="validator" >
+            <div class="form-group">
+                <label for="stuid">Student ID</label>
+                <input type="text" name="" id="stuid" class="form-control" required placeholder="000-xx-xxxx" pattern="^[0-9]{3}-[0-9]{2}-[0-9]{4}$" title="please match in the format: 000-xx-xxxx ">
+                <label for="" class="form-text text-muted label-default">Your Unique student Identification number</label>
+            </div>
+            <div class="form-group">
+                    <label for="fname">First name</label>
+                    <input type="text" name=""  required id="fname" class="form-control" placeholder="e.g John">
+                   
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary btn-lg" id="submit">Submit</button>
+                </div>
+               
+
+        </form>
+
+        <div style="padding-top: 30px;">
+                <table class="table  table-striped" >
+                    <th class="bg-primary" width="50%" style="color: white; ; font-size: 30px;">Student Names</th>
+                    <tbody id="datapopulate">
+                        
+                    </tbody>
+                   
+                </table>
+            </div>
+    </section>
+    
+
+        <script
+  src="https://code.jquery.com/jquery-1.12.4.js"
+  integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="
+  crossorigin="anonymous"></script>
+
+    
+        <script src="js/js.js"></script>
+       
+</body>
+</html>
